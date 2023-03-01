@@ -1,5 +1,5 @@
 type MyExclude<T, U> = T extends U ? never : T;
-// if T extends U than exclude value, other left
+// if T extends U than exclude value, othervise left
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils';
